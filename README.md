@@ -93,32 +93,3 @@ InventoryComponent->AddItem(ItemData, Quantity);
 ```
 
 返回 `true` 表示加入成功，返回 `false` 表示物品无效、背包已满或数量超过上限。
-
-## 常用接口
-
-```cpp
-bool AddItem(const FInventoryItemData& ItemData, int32 Quantity = 1);
-bool RemoveItem(FName ItemId, int32 Quantity = 1);
-bool HasItem(FName ItemId, int32 Quantity = 1) const;
-int32 GetItemCount(FName ItemId) const;
-TArray<FInventorySlotData> GetSlots() const;
-void ClearInventory();
-```
-
-## 上传 GitHub
-
-建议上传：
-
-- `Inventory.uplugin`
-- `Source/`
-- `README.md`
-- `Shows/`
-- `.gitignore`
-
-不要上传：
-
-- `Binaries/`
-- `Intermediate/`
-- `Saved/`
-- `.vs/`
-- `DerivedDataCache/`
