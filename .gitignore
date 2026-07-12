@@ -1,0 +1,50 @@
+# Unreal generated folders
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# IDE and local workspace files
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.opensdf
+*.sdf
+
+# Build and Live Coding outputs
+*.dll
+*.pdb
+*.lib
+*.exp
+*.obj
+*.exe
+*.modules
+*.target
+*.version
+*.patch_*
+*.lc.obj
+*.lc.dep.json
+LiveCodingInfo.json
+LiveCodingInfo.json.old
+
+# Unreal generated code and diagnostics
+*.generated.h
+*.gen.cpp
+*.dep.json
+*.rsp
+*.sarif
+Definitions.*.h
+Module.*.cpp
+PerModuleInline.gen.cpp
+Timestamp
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.old
+Thumbs.db
+Desktop.ini
